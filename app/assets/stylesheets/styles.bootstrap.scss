@@ -11,4 +11,20 @@ $navbar-default-toggle-hover-bg:#C0392B;
 $navbar-default-toggle-icon-bar-bg:white;
 $jumbotron-bg:#ffffff;
 
+.btn.navbar-btn {
+	background: darken(#E74C3C, 10%);
+	border:1px solid darken(#E74C3C, 20%);
+}
+.navbar-btn > * {
+	color:white;
+}
+.navbar-btn:hover {
+	background:darken(#E74C3C, 15%);
+}
+.navbar-btn a:hover {
+	color:white;
+	text-decoration:none;
+}
+
+@import 'bootstrap-sprockets';
 @import 'bootstrap';

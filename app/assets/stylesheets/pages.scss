@@ -16,3 +16,9 @@ a.logo {
 .logo:hover {
 	text-decoration:none;
 }
+.btn-navbar {
+	background:none;
+}
+.btn-navbar > * {
+	color:white;
+}
